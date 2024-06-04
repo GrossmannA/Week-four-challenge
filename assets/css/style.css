@@ -1,0 +1,30 @@
+* {
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: navy;
+  }
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 12px;
+    margin: 25px 0;
+}
+
+.btn, #startQuiz {
+    border: 2px solid rgb(221, 0, 255);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    
+}
+
+
+.hide {
+    display: none;
+}
